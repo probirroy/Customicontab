@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bd.edu.ibaisuniv.ibaisuniversity.customicontab.CFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <com.codesgood.views.JustifiedTextView
+        android:id="@+id/text_one"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#000"
+        android:background="#FFF"
+        android:textSize="18sp"
+        android:layout_weight="1"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="0dp"
+        android:layout_marginTop="25dp"/>
+
+</LinearLayout>
