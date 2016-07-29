@@ -64,7 +64,7 @@ public class AFragment extends Fragment implements ListView.OnItemSelectedListen
 
     public void fragmentHandler(Fragment fragment){
         FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
-        ft.replace(R.id.abc, fragment).addToBackStack(null);
+        ft.replace(R.id.testFrame, fragment).addToBackStack(null);
         ft.commit();
     }
 
