@@ -19,7 +19,9 @@ public class TestFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.test_frament_layout, container, false);
-        getFragmentManager().beginTransaction().add(R.id.testFrame, new AFragment()).commit();
+        if (savedInstanceState==null){
+            getFragmentManager().beginTransaction().add(R.id.testFrame, new AFragment()).commit();
+        }
         return view;
     }
 
